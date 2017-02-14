@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093B586B1E53034500F3956F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093B586A1E53034500F3956F /* AppDelegate.m */; };
+		093B586E1E53034500F3956F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093B586D1E53034500F3956F /* main.m */; };
+		093B58711E53034500F3956F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093B58701E53034500F3956F /* ViewController.m */; };
+		093B58731E53034500F3956F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093B58721E53034500F3956F /* Assets.xcassets */; };
+		093B58761E53034500F3956F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093B58741E53034500F3956F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093B58661E53034500F3956F /* ColorChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093B58691E53034500F3956F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		093B586A1E53034500F3956F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		093B586D1E53034500F3956F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093B586F1E53034500F3956F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		093B58701E53034500F3956F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		093B58721E53034500F3956F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093B58751E53034500F3956F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093B58771E53034500F3956F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093B58631E53034500F3956F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093B585D1E53034500F3956F = {
+			isa = PBXGroup;
+			children = (
+				093B58681E53034500F3956F /* ColorChanger */,
+				093B58671E53034500F3956F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093B58671E53034500F3956F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093B58661E53034500F3956F /* ColorChanger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093B58681E53034500F3956F /* ColorChanger */ = {
+			isa = PBXGroup;
+			children = (
+				093B58691E53034500F3956F /* AppDelegate.h */,
+				093B586A1E53034500F3956F /* AppDelegate.m */,
+				093B586F1E53034500F3956F /* ViewController.h */,
+				093B58701E53034500F3956F /* ViewController.m */,
+				093B58721E53034500F3956F /* Assets.xcassets */,
+				093B58741E53034500F3956F /* Main.storyboard */,
+				093B58771E53034500F3956F /* Info.plist */,
+				093B586C1E53034500F3956F /* Supporting Files */,
+			);
+			path = ColorChanger;
+			sourceTree = "<group>";
+		};
+		093B586C1E53034500F3956F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093B586D1E53034500F3956F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093B58651E53034500F3956F /* ColorChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093B587A1E53034500F3956F /* Build configuration list for PBXNativeTarget "ColorChanger" */;
+			buildPhases = (
+				093B58621E53034500F3956F /* Sources */,
+				093B58631E53034500F3956F /* Frameworks */,
+				093B58641E53034500F3956F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorChanger;
+			productName = ColorChanger;
+			productReference = 093B58661E53034500F3956F /* ColorChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093B585E1E53034500F3956F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Olivier;
+				TargetAttributes = {
+					093B58651E53034500F3956F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5P8843F4W5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 093B58611E53034500F3956F /* Build configuration list for PBXProject "ColorChanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093B585D1E53034500F3956F;
+			productRefGroup = 093B58671E53034500F3956F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093B58651E53034500F3956F /* ColorChanger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093B58641E53034500F3956F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093B58731E53034500F3956F /* Assets.xcassets in Resources */,
+				093B58761E53034500F3956F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093B58621E53034500F3956F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093B58711E53034500F3956F /* ViewController.m in Sources */,
+				093B586E1E53034500F3956F /* main.m in Sources */,
+				093B586B1E53034500F3956F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		093B58741E53034500F3956F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093B58751E53034500F3956F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093B58781E53034500F3956F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		093B58791E53034500F3956F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		093B587B1E53034500F3956F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5P8843F4W5;
+				INFOPLIST_FILE = ColorChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maestun.ColorChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		093B587C1E53034500F3956F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5P8843F4W5;
+				INFOPLIST_FILE = ColorChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maestun.ColorChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093B58611E53034500F3956F /* Build configuration list for PBXProject "ColorChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093B58781E53034500F3956F /* Debug */,
+				093B58791E53034500F3956F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093B587A1E53034500F3956F /* Build configuration list for PBXNativeTarget "ColorChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093B587B1E53034500F3956F /* Debug */,
+				093B587C1E53034500F3956F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093B585E1E53034500F3956F /* Project object */;
+}
