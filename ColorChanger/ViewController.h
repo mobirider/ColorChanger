@@ -8,8 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <NSWindowDelegate>
 
+@property (weak) IBOutlet NSButtonCell *btApply;
+@property (weak) IBOutlet NSProgressIndicator *piWaiting;
+
+@property (strong, nonatomic) NSColor * color;
 
 @end
 
